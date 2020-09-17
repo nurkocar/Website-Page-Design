@@ -162,7 +162,7 @@ footer p{
     font-weight: 400;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1070px){
     header,.section-subscribe{
         flex-direction: column;
         height: 6rem;
