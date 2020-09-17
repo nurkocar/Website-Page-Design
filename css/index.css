@@ -167,7 +167,7 @@ footer p{
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     header,.section-subscribe{
     flex-direction: column;
     height: 6rem;
@@ -194,4 +194,60 @@ footer p{
         grid-template-columns: 1fr 1fr 1fr;
     } */
 
+}
+
+@media screen and (max-width:390px){
+    header,.section-subscribe{
+        height: auto;
+    }
+    h1, h1 span{
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+    .subscribe-newsletter h3{
+        font-size: 1.2rem; ;
+    }
+    #email__subscribe{
+        font-size:0.5rem;
+        padding: 2vh 0.5vw;
+        width: 200px;
+        height: 30px ;
+    }
+    #subscribe{
+        padding: 1.3vh 1vw;
+    }
+    .main__index h2{
+        font-size: 2.8rem;
+        /* font-weight: 700; */
+        line-height: 4rem;
+    }
+    
+    .main__index p{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        /* font-weight: 400; */
+        margin: 4vh 10vw 0;
+    }
+        /* .section-course{
+        grid-template-columns: auto auto auto;
+    } */
+    .section-course img{
+        width: 3rem; 
+        height: auto;
+    }
+    
+    .section-course h4{
+        margin: 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.2rem;
+    }
+    
+    .section-course p {
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+        /* font-weight: 400;
+        padding: 0 0; */
+    }
 }

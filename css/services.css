@@ -189,8 +189,7 @@ footer p{
     .section__services{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-self: center;
+        margin-left: 0;
     }
 
     .section__services--box{
