@@ -112,7 +112,7 @@ button{
     grid-template-areas: 'html css design';
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #f4f4f4;
-    padding: 1.8rem 8rem;
+    padding: 1.8rem 0;
 }
 
 .html{
