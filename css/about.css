@@ -148,15 +148,39 @@ footer p{
         height: 6rem;
         justify-content:center;
         align-items: center;
-        }
+    }
+
     .header-brand,.subscribe-newsletter{
-            margin: 10px 0 0 0;
-        }
+        margin: 10px 0 0 0;
+    }
         
     .header-navbar,.email{
-            margin: 5px 0 5px 0;
-        }
-    .main__services {
-        flex-direction: column;
+        margin: 5px 0 5px 0;
     }
+    .main__about {
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .section__about{
+        margin: 0;
+        justify-content: center;
+        /* align-self: center; */
+    }
+
+    .section__about--header{
+        padding: 20px 10px;
+    }
+
+    .section__about--box, .section__whatWeDo{
+        width: 323px;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .section__whatWeDo{
+        align-self: center;
+    }
+
+
 }
