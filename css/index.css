@@ -17,23 +17,13 @@ header, .section-subscribe{
 }
 
 .header-brand, .subscribe-newsletter{
-    /* margin-top: 4vh; */
     margin-left: 10vw;
 }
 
 .header-navbar, .email{
-    /* float: right;
-    margin-top: 5vh; */
     margin-right: 10vw;
 }
-/* .header-container{
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    height: 6rem;
-    justify-content: space-around;
-    align-items: center;
-} */
+
 
 span{
     color:#A9508B ;
@@ -68,12 +58,6 @@ h1, h1 span{
     line-height: 2.8rem;
 }
 
-/* #home:hover{
-    font-weight: bold;
-    cursor: pointer;
-    color: #cccccc;
-} */
-
 .main__index{
     background-image: url(../images/showcase.jpg);
     background-repeat: no-repeat;
@@ -100,24 +84,6 @@ h1, h1 span{
     margin: 4vh 10vw 0;
 }
 
-/* .section-subscribe{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 6rem;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #35424a; 
-} */
-
-/* .section-subscribe h3{
-    margin-left: 10vw;
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 2rem;
-} */
-
 .subscribe-newsletter h3{
     font-size: 1.4rem;
     font-weight: 700;
@@ -142,9 +108,7 @@ button{
 }
 
 .section-course{
-    /* padding: 10px; */
     display: grid;
-    /* grid-gap: 100px; */
     grid-template-areas: 'html css design';
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #f4f4f4;
@@ -153,41 +117,29 @@ button{
 
 .html{
     grid-area: "html";
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     text-align: center;
-    /* margin: 50px 15px; */
 }
 
 .css{
     grid-area: "css";
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     text-align: center;
-    /* margin: 50px 15px; */
 }
 
 .design{
     grid-area: "design";
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;*/
     text-align: center;
-    /* margin: 50px 15px; */
-}
-
-h4{
-    margin: 1.25rem;
-    font-size: 1.125rem;
-    font-weight: 700;
-    line-height: 1.6rem;
 }
 
 .section-course img{
     width: 5rem; 
     height: auto;
+}
+
+.section-course h4{
+    margin: 1.25rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.6rem;
 }
 
 .section-course p {
@@ -235,7 +187,6 @@ footer p{
     }
 
     .section-course{
-        /* margin: 10px; */
         padding: 10px;
         display: grid;
         grid-gap: 1px;
@@ -243,37 +194,4 @@ footer p{
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    /* .html, .css, .design{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
-/* 
-    .html{
-        grid-area: "html";
-    }
-    
-    .css{
-        grid-area: "css";
-    }
-    
-    .design{
-        grid-area: "design";
-    } */
-    /* h4{
-        margin: 1rem;
-    } */
-    /*.section-course p {
-        /* font-size: 0.9rem;
-        line-height: 1.5rem; */
-        /* font-weight: 400; */
-        /* padding: 0 1rem; */
-    /* } */
-    /* .section-course img{
-    position: relative;
-    left: -20px;
-    } */
 }

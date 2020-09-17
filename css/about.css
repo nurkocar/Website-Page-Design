@@ -2,23 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-header{
+header, .section-subscribe{
     background-color: #35424a;
-    border-bottom: 3px solid #A9508B;
-}
-
-.header-container{
     color: white;
+    border-bottom: 3px solid #A9508B;
     display: flex;
-    flex-wrap: wrap;
-    height: 6rem;
-    justify-content: space-around;
-    align-items: center;    
-
+    height: 6.5rem;
+    justify-content:space-between;
+    align-items: center;
 }
+
+.header-brand, .subscribe-newsletter{
+    margin-left: 10vw;
+}
+
+.header-navbar, .email{
+    margin-right: 10vw;
+}
+
+
 span{
     color:#A9508B ;
 }
@@ -41,29 +46,19 @@ a{
     font-weight: bold;
 }
 
-h1, h1 span{
-    font-size: 1.8rem;
-    font-weight: 700;
-    line-height: 2.8rem;
-}
-
 #home:hover,#services:hover,#about:hover{
     font-weight: bold;
     cursor: pointer;
     color: #cccccc;
 }
 
-.section-subscribe{
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    height: 6rem;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #35424a; 
-    flex-wrap: wrap;
+h1, h1 span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
 }
-.section-subscribe h3{
+
+.subscribe-newsletter h3{
     font-size: 1.4rem;
     font-weight: 700;
     line-height: 2rem;
@@ -145,4 +140,23 @@ footer p{
     font-size: 0.9rem;
     line-height: 1.4rem;
     font-weight: 400;
+}
+
+@media screen and (max-width:800px){
+    header,.section-subscribe{
+        flex-direction: column;
+        height: 6rem;
+        justify-content:center;
+        align-items: center;
+        }
+    .header-brand,.subscribe-newsletter{
+            margin: 10px 0 0 0;
+        }
+        
+    .header-navbar,.email{
+            margin: 5px 0 5px 0;
+        }
+    .main__services {
+        flex-direction: column;
+    }
 }
