@@ -186,10 +186,6 @@ footer p{
         align-items: center;
     }
 
-    .section__services--header {
-        text-align: center;
-    }
-
     .section__services{
         display: flex;
         flex-direction: column;
@@ -197,8 +193,14 @@ footer p{
         align-self: center;
     }
 
+    .section__services--box {
+        width: 70vw;
+        padding: 5vh 3vw;
+        margin: 3vh 7vw 0 0;
+    }
+
     .section__quote {
-        margin: 0 0 10px 0;
+        margin: 10px 0;
         padding: 0;
         align-self: center;
     }
