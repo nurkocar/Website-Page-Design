@@ -181,6 +181,27 @@ footer p{
     .section__whatWeDo{
         align-self: center;
     }
+}
 
-
+@media screen and (max-width:390px){
+    header,.section-subscribe{
+        height: auto;
+    }
+    h1, h1 span{
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+    .subscribe-newsletter h3{
+        font-size: 1.2rem; ;
+    }
+    #email__subscribe{
+        font-size:0.5rem;
+        padding: 2vh 0.5vw;
+        width: 200px;
+        height: 30px ;
+    }
+    #subscribe{
+        padding: 1.3vh 1vw;
+    }
 }
