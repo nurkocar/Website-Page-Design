@@ -185,15 +185,6 @@ footer p{
     .main__index h2{
         font-size: 3.5rem;
     }
-
-    /* .section-course{
-        padding: 10px;
-        display: grid;
-        grid-gap: 1px;
-        grid-template-areas: 'html css design';
-        grid-template-columns: 1fr 1fr 1fr;
-    } */
-
 }
 
 @media screen and (max-width:390px){
@@ -219,19 +210,15 @@ footer p{
     }
     .main__index h2{
         font-size: 2.8rem;
-        /* font-weight: 700; */
         line-height: 4rem;
     }
     
     .main__index p{
         font-size: 1.1rem;
         line-height: 1.5rem;
-        /* font-weight: 400; */
         margin: 4vh 10vw 0;
     }
-        /* .section-course{
-        grid-template-columns: auto auto auto;
-    } */
+
     .section-course img{
         width: 3rem; 
         height: auto;
@@ -247,7 +234,5 @@ footer p{
     .section-course p {
         font-size: 0.7rem;
         line-height: 1.2rem;
-        /* font-weight: 400;
-        padding: 0 0; */
     }
 }
