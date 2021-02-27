@@ -1,7 +1,13 @@
+# Link To My Project [Clarusway Website](https://nurkocar.github.io/Website-Page-Design/)
+
+## Here is the view of my project...
+
+![Clarusway Website Page Design](./images/ClaruswayWebsite.gif)
+
 # Project-003 : Website Page Design (HC-04)
 
 ## Description
-Project aims to create website site page.
+Project aims to create a 3 pages website.
 
 ## Problem Statement
 
@@ -24,11 +30,11 @@ Project aims to create website site page.
 
 ## Expected Outcome
 
-![Project 004 Snapshot](Project_004_1.png)
+![Project 004 Snapshot](./images/Project_004_1.png)
 
-![Project 004 Snapshot](Project_004_2.png)
+![Project 004 Snapshot](./images/Project_004_2.png)
 
-![Project 004 Snapshot](Project_004_3.png)
+![Project 004 Snapshot](./images/Project_004_3.png)
 
 ## Objective
 
